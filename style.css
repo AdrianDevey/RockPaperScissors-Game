@@ -1,0 +1,81 @@
+body{
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.icons{
+  height: 50px;
+}
+
+.pick-btn{
+  background-color: transparent;
+  border: 5px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+.pick-btn:hover{
+  background-color: rgba(50, 50, 50);
+}
+
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score{
+  margin-top: 50px;
+}
+
+.reset-score-btn{
+  background-color: transparent;
+  color: white;
+  border: solid 5px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.reset-score-btn:hover{
+  background-color: rgb(100, 100, 100);
+}
+
+.reset-icon{
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  margin-left: 72px;
+  margin-right: 10px;
+}
+
+
+
+.autoplay-btn{
+  background-color: transparent;
+  color: white;
+  border: solid 5px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.autoplay-btn:active{
+  background-color: red;
+}
+
+
+
